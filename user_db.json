@@ -1,0 +1,276 @@
+{
+  "users": {
+    "Ola": {
+      "username": "Ola",
+      "level": "Beginner",
+      "words_learned": {
+        "apple": {
+          "question_freq": 3,
+          "answered_correctly": 2,
+          "perfection": 0.46
+        },
+        "island": {
+          "question_freq": 4,
+          "answered_correctly": 3,
+          "perfection": 0.67
+        },
+        "gravity": {
+          "question_freq": 6,
+          "answered_correctly": 5,
+          "perfection": 0.79
+        },
+        "yogurt": {
+          "question_freq": 7,
+          "answered_correctly": 5,
+          "perfection": 0.65
+        },
+        "nebula": {
+          "question_freq": 9,
+          "answered_correctly": 6,
+          "perfection": 0.61
+        },
+        "resource": {
+          "question_freq": 3,
+          "answered_correctly": 1,
+          "perfection": 0.17
+        },
+        "notebook": {
+          "question_freq": 6,
+          "answered_correctly": 4,
+          "perfection": 0.59
+        },
+        "bridge": {
+          "question_freq": 6,
+          "answered_correctly": 5,
+          "perfection": 0.8
+        },
+        "zebra": {
+          "question_freq": 8,
+          "answered_correctly": 7,
+          "perfection": 0.85
+        },
+        "diamond": {
+          "question_freq": 4,
+          "answered_correctly": 3,
+          "perfection": 0.67
+        },
+        "zenith": {
+          "question_freq": 8,
+          "answered_correctly": 6,
+          "perfection": 0.71
+        },
+        "horizon": {
+          "question_freq": 2,
+          "answered_correctly": 1,
+          "perfection": 0.25
+        },
+        "element": {
+          "question_freq": 6,
+          "answered_correctly": 5,
+          "perfection": 0.8
+        },
+        "waterfall": {
+          "question_freq": 9,
+          "answered_correctly": 6,
+          "perfection": 0.62
+        },
+        "teacher": {
+          "question_freq": 3,
+          "answered_correctly": 2,
+          "perfection": 0.46
+        },
+        "mountain": {
+          "question_freq": 5,
+          "answered_correctly": 4,
+          "perfection": 0.74
+        },
+        "river": {
+          "question_freq": 3,
+          "answered_correctly": 2,
+          "perfection": 0.58
+        },
+        "energy": {
+          "question_freq": 6,
+          "answered_correctly": 4,
+          "perfection": 0.59
+        },
+        "galaxy": {
+          "question_freq": 7,
+          "answered_correctly": 5,
+          "perfection": 0.66
+        },
+        "lemon": {
+          "question_freq": 4,
+          "answered_correctly": 3,
+          "perfection": 0.67
+        },
+        "window": {
+          "question_freq": 4,
+          "answered_correctly": 3,
+          "perfection": 0.71
+        },
+        "sunshine": {
+          "question_freq": 5,
+          "answered_correctly": 4,
+          "perfection": 0.74
+        },
+        "yield": {
+          "question_freq": 7,
+          "answered_correctly": 5,
+          "perfection": 0.64
+        },
+        "pyramid": {
+          "question_freq": 10,
+          "answered_correctly": 9,
+          "perfection": 0.9
+        },
+        "piano": {
+          "question_freq": 2,
+          "answered_correctly": 0,
+          "perfection": 0.0
+        },
+        "umbrella": {
+          "question_freq": 11,
+          "answered_correctly": 6,
+          "perfection": 0.58
+        },
+        "insect": {
+          "question_freq": 7,
+          "answered_correctly": 5,
+          "perfection": 0.66
+        },
+        "question": {
+          "question_freq": 4,
+          "answered_correctly": 2,
+          "perfection": 0.42
+        },
+        "quantity": {
+          "question_freq": 4,
+          "answered_correctly": 2,
+          "perfection": 0.34
+        },
+        "banana": {
+          "question_freq": 2,
+          "answered_correctly": 1,
+          "perfection": 0.25
+        },
+        "culture": {
+          "question_freq": 5,
+          "answered_correctly": 4,
+          "perfection": 0.76
+        },
+        "journey": {
+          "question_freq": 2,
+          "answered_correctly": 1,
+          "perfection": 0.25
+        },
+        "library": {
+          "question_freq": 4,
+          "answered_correctly": 2,
+          "perfection": 0.99
+        },
+        "knowledge": {
+          "question_freq": 6,
+          "answered_correctly": 5,
+          "perfection": 0.79
+        },
+        "opportunity": {
+          "question_freq": 6,
+          "answered_correctly": 5,
+          "perfection": 0.8
+        },
+        "museum": {
+          "question_freq": 6,
+          "answered_correctly": 5,
+          "perfection": 0.8
+        },
+        "forest": {
+          "question_freq": 2,
+          "answered_correctly": 1,
+          "perfection": 0.25
+        },
+        "village": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 1.0
+        },
+        "ocean": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 1.0
+        },
+        "technology": {
+          "question_freq": 4,
+          "answered_correctly": 4,
+          "perfection": 1.0
+        },
+        "universe": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 1.0
+        },
+        "dolphin": {
+          "question_freq": 6,
+          "answered_correctly": 6,
+          "perfection": 1.0
+        },
+        "harmony": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 1.0
+        },
+        "keyboard": {
+          "question_freq": 6,
+          "answered_correctly": 6,
+          "perfection": 1.0
+        },
+        "algorithm": {
+          "question_freq": 4,
+          "answered_correctly": 4,
+          "perfection": 1.0
+        },
+        "castle": {
+          "question_freq": 4,
+          "answered_correctly": 4,
+          "perfection": 1.0
+        },
+        "festival": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "structure": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "jungle": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "volume": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        }
+      },
+      "words_mastered": [
+        "pyramid",
+        "dolphin",
+        "keyboard"
+      ],
+      "retention_rate": 6.0,
+      "total_score": 79,
+      "total_questions": 130,
+      "overall_accuracy": 60.76923076923077,
+      "created": "2025-07-29T23:53:37.695011",
+      "last_active": "2025-07-31T14:53:09.835261"
+    }
+  },
+  "sessions": [],
+  "metadata": {
+    "created": "2025-07-29T23:52:06.705635",
+    "version": "1.0"
+  }
+}
