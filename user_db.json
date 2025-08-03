@@ -2,275 +2,668 @@
   "users": {
     "Ola": {
       "username": "Ola",
-      "level": "Beginner",
+      "level": "Intermediate",
       "words_learned": {
-        "apple": {
-          "question_freq": 3,
-          "answered_correctly": 2,
-          "perfection": 0.46
-        },
-        "island": {
-          "question_freq": 4,
-          "answered_correctly": 3,
-          "perfection": 0.67
-        },
-        "gravity": {
-          "question_freq": 6,
-          "answered_correctly": 5,
-          "perfection": 0.79
-        },
-        "yogurt": {
-          "question_freq": 7,
-          "answered_correctly": 5,
-          "perfection": 0.65
-        },
-        "nebula": {
-          "question_freq": 9,
-          "answered_correctly": 6,
-          "perfection": 0.61
-        },
-        "resource": {
-          "question_freq": 3,
+        "retention": {
+          "question_freq": 1,
           "answered_correctly": 1,
-          "perfection": 0.17
-        },
-        "notebook": {
-          "question_freq": 6,
-          "answered_correctly": 4,
-          "perfection": 0.59
-        },
-        "bridge": {
-          "question_freq": 6,
-          "answered_correctly": 5,
-          "perfection": 0.8
-        },
-        "zebra": {
-          "question_freq": 8,
-          "answered_correctly": 7,
-          "perfection": 0.85
-        },
-        "diamond": {
-          "question_freq": 4,
-          "answered_correctly": 3,
-          "perfection": 0.67
-        },
-        "zenith": {
-          "question_freq": 8,
-          "answered_correctly": 6,
-          "perfection": 0.71
-        },
-        "horizon": {
-          "question_freq": 2,
-          "answered_correctly": 1,
-          "perfection": 0.25
-        },
-        "element": {
-          "question_freq": 6,
-          "answered_correctly": 5,
-          "perfection": 0.8
-        },
-        "waterfall": {
-          "question_freq": 9,
-          "answered_correctly": 6,
-          "perfection": 0.62
-        },
-        "teacher": {
-          "question_freq": 3,
-          "answered_correctly": 2,
-          "perfection": 0.46
-        },
-        "mountain": {
-          "question_freq": 5,
-          "answered_correctly": 4,
-          "perfection": 0.74
-        },
-        "river": {
-          "question_freq": 3,
-          "answered_correctly": 2,
-          "perfection": 0.58
-        },
-        "energy": {
-          "question_freq": 6,
-          "answered_correctly": 4,
-          "perfection": 0.59
-        },
-        "galaxy": {
-          "question_freq": 7,
-          "answered_correctly": 5,
-          "perfection": 0.66
-        },
-        "lemon": {
-          "question_freq": 4,
-          "answered_correctly": 3,
-          "perfection": 0.67
-        },
-        "window": {
-          "question_freq": 4,
-          "answered_correctly": 3,
-          "perfection": 0.71
-        },
-        "sunshine": {
-          "question_freq": 5,
-          "answered_correctly": 4,
-          "perfection": 0.74
-        },
-        "yield": {
-          "question_freq": 7,
-          "answered_correctly": 5,
-          "perfection": 0.64
-        },
-        "pyramid": {
-          "question_freq": 10,
-          "answered_correctly": 9,
-          "perfection": 0.9
-        },
-        "piano": {
-          "question_freq": 2,
-          "answered_correctly": 0,
           "perfection": 0.0
         },
-        "umbrella": {
-          "question_freq": 11,
-          "answered_correctly": 6,
-          "perfection": 0.58
-        },
-        "insect": {
-          "question_freq": 7,
-          "answered_correctly": 5,
-          "perfection": 0.66
-        },
-        "question": {
-          "question_freq": 4,
-          "answered_correctly": 2,
-          "perfection": 0.42
-        },
-        "quantity": {
-          "question_freq": 4,
-          "answered_correctly": 2,
-          "perfection": 0.34
-        },
-        "banana": {
-          "question_freq": 2,
+        "boost": {
+          "question_freq": 1,
           "answered_correctly": 1,
-          "perfection": 0.25
+          "perfection": 0.0
         },
-        "culture": {
-          "question_freq": 5,
-          "answered_correctly": 4,
-          "perfection": 0.76
-        },
-        "journey": {
-          "question_freq": 2,
+        "spaced": {
+          "question_freq": 1,
           "answered_correctly": 1,
-          "perfection": 0.25
+          "perfection": 0.0
         },
-        "library": {
-          "question_freq": 4,
-          "answered_correctly": 2,
-          "perfection": 0.99
-        },
-        "knowledge": {
-          "question_freq": 6,
-          "answered_correctly": 5,
-          "perfection": 0.79
-        },
-        "opportunity": {
-          "question_freq": 6,
-          "answered_correctly": 5,
-          "perfection": 0.8
-        },
-        "museum": {
-          "question_freq": 6,
-          "answered_correctly": 5,
-          "perfection": 0.8
-        },
-        "forest": {
-          "question_freq": 2,
+        "consistent": {
+          "question_freq": 1,
           "answered_correctly": 1,
-          "perfection": 0.25
+          "perfection": 0.0
         },
-        "village": {
-          "question_freq": 2,
-          "answered_correctly": 2,
-          "perfection": 1.0
+        "essential": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
         },
-        "ocean": {
-          "question_freq": 3,
-          "answered_correctly": 3,
-          "perfection": 1.0
+        "an": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
         },
-        "technology": {
-          "question_freq": 4,
-          "answered_correctly": 4,
-          "perfection": 1.0
+        "crucial": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
         },
-        "universe": {
-          "question_freq": 2,
-          "answered_correctly": 2,
-          "perfection": 1.0
+        "lastly": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
         },
-        "dolphin": {
-          "question_freq": 6,
-          "answered_correctly": 6,
-          "perfection": 1.0
+        "part": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
         },
-        "harmony": {
-          "question_freq": 2,
-          "answered_correctly": 2,
-          "perfection": 1.0
+        "context": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
         },
-        "keyboard": {
-          "question_freq": 6,
-          "answered_correctly": 6,
-          "perfection": 1.0
+        "it": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
         },
-        "algorithm": {
-          "question_freq": 4,
-          "answered_correctly": 4,
-          "perfection": 1.0
+        "for": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
         },
-        "castle": {
-          "question_freq": 4,
-          "answered_correctly": 4,
-          "perfection": 1.0
+        "can": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
         },
-        "festival": {
+        "exposes": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "understand": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "up": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "discovering": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "mastering": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        }
+      },
+      "words_mastered": [],
+      "difficult_words": [],
+      "retention_rate": 0.0,
+      "total_score": 8,
+      "total_questions": 10,
+      "overall_accuracy": 80.0,
+      "created": "2025-08-03T22:55:10.453961",
+      "last_active": "2025-08-03T22:56:21.140670"
+    },
+    "cfg6": {
+      "username": "cfg6",
+      "level": "Beginner",
+      "words_learned": {
+        "boost": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "repetition": {
           "question_freq": 3,
           "answered_correctly": 3,
           "perfection": 0.75
         },
-        "structure": {
+        "your": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "the": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "discovering": {
           "question_freq": 2,
           "answered_correctly": 2,
           "perfection": 0.5
         },
-        "jungle": {
+        "understand": {
           "question_freq": 2,
           "answered_correctly": 2,
           "perfection": 0.5
         },
-        "volume": {
+        "essential": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "don't": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "vocabulary": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "efficiency": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "meanings": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "making": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "consistent": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "there": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "apps": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "lastly": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "sentences": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "nuances": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "remembering": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "exposes": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "are": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "effective": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "practice": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "natural": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "base": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "key": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "better": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "classic": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "journey": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "up": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "spaced": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "mistakes": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "be": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "forget": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "techniques": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "language": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "context": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "helps": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "expand": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "part": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        }
+      },
+      "words_mastered": [],
+      "difficult_words": [],
+      "retention_rate": 0.0,
+      "total_score": 3,
+      "total_questions": 27,
+      "overall_accuracy": 11.11,
+      "created": "2025-08-03T23:20:14.414582",
+      "last_active": "2025-08-03T23:23:59.040596"
+    },
+    "Sam": {
+      "username": "Sam",
+      "level": "Beginner",
+      "words_learned": {
+        "diverse": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "discovering": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "exposes": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "review": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "understanding": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "retention": {
+          "question_freq": 4,
+          "answered_correctly": 4,
+          "perfection": 0.88
+        },
+        "meanings": {
+          "question_freq": 4,
+          "answered_correctly": 4,
+          "perfection": 0.88
+        },
+        "helps": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "boost": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "journey": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "can": {
+          "question_freq": 4,
+          "answered_correctly": 4,
+          "perfection": 0.88
+        },
+        "practice": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "be": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "part": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "vocabulary": {
+          "question_freq": 6,
+          "answered_correctly": 6,
+          "perfection": 0.97
+        },
+        "remembering": {
+          "question_freq": 4,
+          "answered_correctly": 4,
+          "perfection": 0.88
+        },
+        "make": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "newspapers": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "repetition": {
+          "question_freq": 5,
+          "answered_correctly": 5,
+          "perfection": 0.94
+        },
+        "context": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "clearly": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "efficiency": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "nuances": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "term": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "that": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "it": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "example": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "lastly": {
+          "question_freq": 4,
+          "answered_correctly": 4,
+          "perfection": 0.88
+        },
+        "spaced": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "enjoy": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "sentences": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "word": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "your": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "and": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "don't": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "the": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "mastering": {
+          "question_freq": 4,
+          "answered_correctly": 4,
+          "perfection": 0.88
+        },
+        "there": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "thoughts": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "usage": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "apps": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "learning": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "long": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "natural": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "language": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "essential": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "expand": {
+          "question_freq": 3,
+          "answered_correctly": 3,
+          "perfection": 0.75
+        },
+        "more": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "words": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "others": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "base": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "for": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "new": {
+          "question_freq": 2,
+          "answered_correctly": 2,
+          "perfection": 0.5
+        },
+        "understand": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "a": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "novels": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "making": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "consistent": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "crucial": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "reading": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "of": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "digital": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "you": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "ways": {
+          "question_freq": 1,
+          "answered_correctly": 1,
+          "perfection": 0.0
+        },
+        "effective": {
           "question_freq": 1,
           "answered_correctly": 1,
           "perfection": 0.0
         }
       },
       "words_mastered": [
-        "pyramid",
-        "dolphin",
-        "keyboard"
+        "vocabulary",
+        "repetition"
       ],
-      "retention_rate": 6.0,
-      "total_score": 79,
-      "total_questions": 130,
-      "overall_accuracy": 60.76923076923077,
-      "created": "2025-07-29T23:53:37.695011",
-      "last_active": "2025-07-31T14:53:09.835261"
+      "difficult_words": [],
+      "retention_rate": 3.08,
+      "total_score": 9,
+      "total_questions": 58,
+      "overall_accuracy": 15.52,
+      "created": "2025-08-03T23:25:57.079197",
+      "last_active": "2025-08-03T23:30:43.377019"
     }
   },
   "sessions": [],
   "metadata": {
-    "created": "2025-07-29T23:52:06.705635",
+    "created": "2025-08-03T22:54:38.389747",
     "version": "1.0"
   }
 }

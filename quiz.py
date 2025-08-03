@@ -1,3 +1,4 @@
+'''It generates quiz questions based of the vocabulary file of the user'''
 from abc import ABC, abstractmethod
 import random
 import nltk
@@ -9,6 +10,7 @@ import random
 from typing import Dict, List, Optional
 from sentence_map import sentence_map 
 
+# loads the wordnet library
 try:
     _ = wordnet.synsets('test')
 except LookupError:
@@ -16,20 +18,16 @@ except LookupError:
     nltk.download('wordnet')
     nltk.download('omw-1.4')
 
-
+# Base class for question generation
 class QuestionGenerator(ABC):
     @abstractmethod
     def generate(self, words: list[str], all_words: list[str]) -> list[dict]:
         """
         Given a list of words, return a list of question dicts:
-          {
-            'prompt': str,
-            'choices': list[str] (optional),
-            'answer': str
-          }
         """
         pass
 
+# Generates definition based questions
 class DefinitionGenerator(QuestionGenerator):
     def generate(self, words, all_words):
         questions = []
@@ -44,6 +42,7 @@ class DefinitionGenerator(QuestionGenerator):
                 continue
             
             distractors = random.sample(defs, k=min(3, len(defs)))
+            # gather options
             choices = distractors + [correct]
             if len(choices) != 4:
                 continue
@@ -124,15 +123,15 @@ class SynonymGenerator(QuestionGenerator):
             })
 
         return questions
-        
+ 
+# Generate fill-in-the-blank questions     
 class FillBlankGenerator(QuestionGenerator):
     def __init__(self, sentence_map: dict[str, list[str]], num_choices: int = 4):
         self.sentence_map = sentence_map
         self.num_choices = num_choices
 
     def _replace_word_with_blank(self, sentence: str, word: str) -> str:
-        """Replace all occurrences of a word in a sentence with blanks."""
-        import re
+        # Replace all occurrences of a word in a sentence with blanks.
         escaped_word = re.escape(word.lower())
         pattern = r'\b' + escaped_word + r'\b'
         
@@ -143,8 +142,8 @@ class FillBlankGenerator(QuestionGenerator):
         return re.sub(r'\s+', ' ', result).strip()
 
     def _validate_sentence(self, sentence: str, word: str) -> bool:
-        """Validate that a sentence is suitable for fill-in-the-blank."""
-        import re
+        # Validate that a sentence is suitable for fill-in-the-blank.
+    
         # Check for empty inputs
         if not sentence or not word:
             return False
@@ -159,13 +158,11 @@ class FillBlankGenerator(QuestionGenerator):
         return word_count == 1
 
     def generate(self, words: list[str], all_words: list[str]) -> list[dict]:
-        """Generate context-based fill-in-the-blank questions."""
+        # Generate context-based fill-in-the-blank questions.
         questions = []
-        
         for w in words:
             # Get sentences for this word
             sentences = self.sentence_map.get(w, [])
-            
             # Filter valid sentences
             valid_sentences = []
             for sent in sentences:
@@ -177,18 +174,14 @@ class FillBlankGenerator(QuestionGenerator):
                 
             # Choose a random valid sentence
             sentence = random.choice(valid_sentences)
-            
             # Create the prompt with blank
             prompt_sentence = self._replace_word_with_blank(sentence, w)
             prompt = f"Which word best fits the sentence: \"{prompt_sentence}\""
-            
             # Create choices
             correct = w
-            
             # Create distractor pool
             pool = [word for word in all_words if word != w and word.strip()]
             num_distractors = min(self.num_choices - 1, len(pool))
-            
             if num_distractors < 1:
                 continue
                 
@@ -206,7 +199,7 @@ class FillBlankGenerator(QuestionGenerator):
             
         return questions        
         
-        
+# Manages the questions
 class QuizEngine:
     def __init__(self, generators: list[QuestionGenerator]):
         self.generators = generators
@@ -218,15 +211,14 @@ class QuizEngine:
             lvl = estimate_word_level(w)
             buckets[lvl].append(w)
     
-        # Determine “next level” for sprinkling new words
+        # Determine the next level of the user for sprinkling new words
         order = ["Beginner", "Intermediate", "Advanced"]
         idx = order.index(user_level)
         next_level = order[min(idx + 1, len(order)-1)]
     
-        # Sample 8 from user_level, 2 from next_level (or as many as available)
+        # Sample 12 from user_level, 6 from next_level (or as many as available)
         primary_pool = buckets[user_level]
         secondary_pool = buckets[next_level]
-       
         primary_sample = random.sample(primary_pool, min(12, len(primary_pool)))
         secondary_sample = random.sample(secondary_pool, min(6, len(secondary_pool)))
     
@@ -236,7 +228,7 @@ class QuizEngine:
         return selected_words
         
     def build_questions(self, selected_words: list[str]):    
-        # Now generate one question per word (using whichever generator you like)
+        # Now generate one question per word using random generators 
         quiz_questions = []
         question_counter = 1
         for word in selected_words:
@@ -256,45 +248,33 @@ class QuizEngine:
     def user_answer(self, valid_letters=None, allow_text=True):
         """
         Prompt until the user enters either:
-          • a single letter in valid_letters (e.g. ['a','b','c','d']), or
-          • if allow_text=True, any non-empty text response
+          a single letter in valid_letters (e.g. 'a','b','c','d'), or if allow_text=True, any non-empty text response
         """
         while True:
             ans = input("Your answer: ").strip().lower()
-
             # 1) Empty?
             if not ans:
                 print("Invalid answer: Enter tbe option of the correct answer")
                 continue
-
             # 2) Letter choice?
             if valid_letters and len(ans) == 1 and ans in valid_letters:
                 return ans
-
             # 3) Full-text answer?
             if allow_text and any(ch in string.ascii_lowercase for ch in ans):
                 return ans
-
             # 4) Invalid
             vl = f" ({', '.join(valid_letters)})" if valid_letters else ""
-            print(f"Invalid input. Enter a letter{vl} or text answer.")
-    
+            print(f"Invalid input. Enter a letter (a, b, c, d) or type your answer.")
     
     def run(self, questions: list[dict]):
-        """
-        Run quiz and return (total_score, total_questions, list_of_correct_words, dict_of_word_results).
+        # Run quiz and return (total_score, total_questions, list_of_correct_words, dict_of_word_results).
         
-        Returns:
-            tuple: (total_score, total_questions, correct_words_list, {word: is_correct})
-        """
         score = 0
-        word_results = {} # Dictionary to store {word: True/False}
-    
+        word_results = {} 
         for i, q in enumerate(questions, 1):
             word = q['word'] # Extract the word being tested
             lvl = q.get('level', 'Unknown')
             print(f"\nQ{i} [{lvl}]: {q['prompt']}")
-            
             # Setup choices if available
             labels = []
             if 'choices' in q and q['choices'] and len(q['choices']) >= 2:
@@ -313,7 +293,6 @@ class QuizEngine:
             is_correct = False
     
             if 'choices' in q and labels: # Check if labels exist for MCQ
-                # If they typed a letter, map it back to the choice text
                 if ans in valid_inputs:
                     chosen_idx = labels.index(ans)
                     if 0 <= chosen_idx < len(q['choices']):

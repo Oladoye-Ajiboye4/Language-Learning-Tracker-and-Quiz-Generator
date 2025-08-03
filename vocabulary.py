@@ -1,17 +1,16 @@
+'''
+Determines user's level
+'''
 from wordfreq import zipf_frequency
 
 def estimate_user_level(words):
     """
     Estimate language level based on average Zipf frequency.
-    Levels roughly:
-      • Beginner: avg ≥ 4.0   (common words like “is”, “go”, “come”)
-      • Intermediate: 3.0 ≤ avg < 4.0
-      • Advanced: avg < 3.0   (rare/technical vocabulary)
     """
     # Compute Zipf frequency for each word
     scores = [zipf_frequency(w, "en") for w in words]
     
-    # Remove any words not found in the corpus (freq = 0)
+    # Remove any words not found in the corpus
     valid_scores = [s for s in scores if s > 0]
     if not valid_scores:
         return "Unknown (no valid words)"

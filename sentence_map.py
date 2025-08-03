@@ -1,4 +1,6 @@
-# sentence_map.py
+''' 
+Creates a sentence data for the fillBlank generator
+'''
 
 sentence_map = {
     'apple': [
