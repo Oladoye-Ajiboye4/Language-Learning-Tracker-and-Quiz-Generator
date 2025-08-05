@@ -10,17 +10,6 @@ from database import db
 import re
 import sys
 
-#validates the username
-# def get_username():
-#     username = input('Username: ').strip()
-#     if (username == ''):
-#         print('Invalid input: Your username cannot be blank. Enter your name to continue')
-#         return get_username()
-#     elif len(username) < 3:
-#         print('Invalid input: Your username must be greater than three characters. Enter your name to continue')
-#         return get_username()
-#     return username
-
 
 def get_username():
     # Define allowed characters: letters (a-z, A-Z), digits (0-9), underscore (_), hyphen (-), space ( )

@@ -16,7 +16,6 @@ class UserDatabase:
         if not os.path.exists(self.db_file):
             initial_data = {
                 "users": {},
-                "sessions": [],
                 "metadata": {
                     "created": datetime.now().isoformat(),
                     "version": "1.0"
@@ -31,7 +30,7 @@ class UserDatabase:
                 return json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             return {
-                "users": {}, "sessions": [], "metadata": {}}
+                "users": {}, "metadata": {}}
 
     def _write_db(self, data: Dict):
         # Write entire database.
